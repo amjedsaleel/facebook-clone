@@ -143,17 +143,16 @@ body {
 
 /* Feed section */
 .main .feed {
-    flex: 1;
+    flex: 0.55;
     padding: 30px 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .feed .story-reel {
-    padding: 10px 0;
     display: flex;
+    margin-left: 20px;
 }
 
 .feed .story {
@@ -166,6 +165,11 @@ body {
     border-radius: 10px;
     margin-right: 10px;
     cursor: pointer; 
+    margin-left: 10px;
+}
+
+.feed .story:hover {
+    opacity: 0.7;
 }
 
 .feed .story h4 {
