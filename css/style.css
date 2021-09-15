@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+/* Header section */
 .header {
     display: flex;
     justify-content: space-between;
@@ -106,4 +108,28 @@
 
 .header .right i {
     color: #65676b;
+}
+
+
+.main {
+    background-color: #f0f2f5;
+}
+
+/* sidebar section */
+.main .sidebar-row {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.main .sidebar-row:hover {
+    background-color: lightgray;
+    border-radius: 10px; 
+}
+
+
+.main .sidebar-row h4 {
+    font-weight: bold;
+    margin-left: 20px;
 }
