@@ -243,3 +243,65 @@ body {
     border-radius: 10px;
     background-color: #f0f2f5;
 }
+
+
+/* post section */
+.post {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 5px 7px -7px rgba(0,0,0,0.75);
+}
+
+.post .post-top { 
+    display: flex;
+    /* position: relative; */
+    align-items: center;
+    /* padding: 15px; */
+}
+
+.post .post-top .post-top-info h3 {
+    font-size: 15px;
+}
+
+.post .post-top .time {
+    font-size: 13px;
+    font-weight: bold;
+    color: #696b6b;
+}
+
+.post .post-message .message {
+    margin-top: 10px;
+    margin-top: 10px;
+    padding: 15px 25px;
+} 
+
+.post .post-reaction {
+    /* padding-top: 10px; */
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+    color: #65676b;
+    font-weight: bold;
+}
+
+.post .post-reaction .item {
+    width: 100px;
+    display: flex;
+    align-items: center; 
+    justify-content:center;
+    margin-bottom: 5px;
+    height: 50px;
+    cursor: pointer;     
+}
+
+.post .post-reaction .item p {
+    margin-left: 10px;
+}
+
+.post .post-reaction .item:hover {
+    border-radius: 10px;
+    background-color: #f0f2f5;
+}
