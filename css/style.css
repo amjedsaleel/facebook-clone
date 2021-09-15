@@ -116,6 +116,7 @@ body {
 
 .main {
     display: flex;
+    justify-content: space-between;
 }
 
 /* sidebar section */
@@ -308,4 +309,41 @@ body {
 .post .post-reaction .item:hover {
     border-radius: 10px;
     background-color: #f0f2f5;
+}
+
+/* Lef side section */
+.left-side {
+    flex: 0.20;
+    margin-top: 25px;
+}
+
+.your-pages-section .top,
+.contacts-section .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.your-pages-section .left
+.contacts-section .left {
+    flex: 0.50;
+}
+
+
+.contacts-section .right {
+    flex: 0.50;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.your-pages-section .left h4,
+.contacts-section .left h4 {
+    font-size: 18px;
+    /* font-weight: bolder; */
+    color: #707276;
+}
+
+.your-pages-section .right i,
+.contacts-section .right i {
+    color: #707276;
+    font-weight: bold;
 }
