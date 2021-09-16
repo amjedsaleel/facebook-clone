@@ -12,7 +12,8 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 15px 20px;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     z-index: 50;
     background-color: #fff;
@@ -120,6 +121,9 @@ body {
 }
 
 /* sidebar section */
+.main {
+    margin-top: 90px;
+}
 .main .sidebar-row {
     display: flex;
     align-items: center;
