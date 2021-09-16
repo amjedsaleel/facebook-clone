@@ -328,13 +328,6 @@ body {
     flex: 0.50;
 }
 
-
-.contacts-section .right {
-    flex: 0.50;
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .your-pages-section .left h4,
 .contacts-section .left h4 {
     font-size: 18px;
@@ -378,4 +371,27 @@ body {
 
 .your-pages-section {
     border-bottom: 1px solid #ced0d4;
+}
+
+.contacts-section {
+    margin-top: 15px;
+}
+
+.contacts-section .right {
+    flex: 0.50;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacts-section .bottom .contact {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.contacts-section .bottom img {
+    border-radius: 50%;
+}
+
+.contacts-section .bottom .contact h4 {
+    margin-left: 10px;
 }
