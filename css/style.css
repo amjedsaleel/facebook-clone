@@ -347,3 +347,35 @@ body {
     color: #707276;
     font-weight: bold;
 }
+
+.your-pages-section .page,
+.your-pages-section .manage-pages {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.your-pages-section .page img {
+    border-radius: 50%;
+}
+
+.your-pages-section .page h4 {
+    margin-left: 15px;
+    font-size: 15px;
+}   
+
+.your-pages-section .manage-pages h4 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #6f7175;
+    margin-left: 15px;
+}
+
+.your-pages-section .manage-pages i {
+    color: #6f7175;
+}
+
+.your-pages-section {
+    border-bottom: 1px solid #ced0d4;
+}
